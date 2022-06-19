@@ -1,1 +1,3 @@
-[]
+[
+  "test_some.py::test_getting_users_list"
+]
