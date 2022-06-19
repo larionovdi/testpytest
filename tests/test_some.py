@@ -15,11 +15,12 @@ from src.schemas.user import User
 
 #   received_posts = response.json()
 
-def test_getting_users_list():
-    response = requests.get(SERVICE_URL)
-    test_object = Response(response)
-    test_object.asert_status_code(300).validate(User)
+def test_getting_users_list(get_users):
     
+    Response(get_users).asert_status_code(200).validate(User)
+
+
+
 
 
    

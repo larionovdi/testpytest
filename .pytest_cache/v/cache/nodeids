@@ -1,4 +1,5 @@
 [
   "tests/test_some.py::test_getting_posts",
-  "tests/test_some.py::test_getting_users_list"
+  "tests/test_some.py::test_getting_users_list",
+  "tests/test_some.py::test_sets"
 ]
