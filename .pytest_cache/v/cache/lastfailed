@@ -1,1 +1,3 @@
-{}
+{
+  "tests/users/test_users.py::test_getting_users_list": true
+}

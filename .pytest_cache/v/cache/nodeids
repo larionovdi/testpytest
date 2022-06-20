@@ -1,5 +1,17 @@
 [
   "tests/test_some.py::test_getting_posts",
   "tests/test_some.py::test_getting_users_list",
-  "tests/test_some.py::test_sets"
+  "tests/test_some.py::test_sets",
+  "tests/users/test_users.py::test_another",
+  "tests/users/test_users.py::test_calculation",
+  "tests/users/test_users.py::test_calculation_both_chars",
+  "tests/users/test_users.py::test_calculation_both_negative",
+  "tests/users/test_users.py::test_calculation_one_char",
+  "tests/users/test_users.py::test_calculation_one_negative",
+  "tests/users/test_users.py::test_calculator_param[-1--2--3]",
+  "tests/users/test_users.py::test_calculator_param[-1-2-1]",
+  "tests/users/test_users.py::test_calculator_param[1-2-3]",
+  "tests/users/test_users.py::test_calculator_param[b--2-None]",
+  "tests/users/test_users.py::test_calculator_param[b-a-None]",
+  "tests/users/test_users.py::test_getting_users_list"
 ]

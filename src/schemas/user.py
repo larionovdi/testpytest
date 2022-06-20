@@ -5,8 +5,8 @@ from src.enums.user_enums import Genders, Statuses, UserErrors
 
 class User(BaseModel):
     id: int
-    name: str
-    email: str
+    name: int
+    email: int
     gender: Genders
     status: Statuses
 
